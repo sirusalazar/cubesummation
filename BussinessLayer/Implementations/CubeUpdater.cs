@@ -8,7 +8,7 @@ using BussinessLayer.Models;
 
 namespace BussinessLayer.Implementations
 {
-    class CubeUpdater : ICubeUpdate
+    public class CubeUpdater : ICubeUpdate
     {
         public bool executeUpdate(int[] transactionValues, Cube matrix)
         {

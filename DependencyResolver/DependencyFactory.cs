@@ -1,12 +1,8 @@
 ﻿using Microsoft.Practices.Unity.Configuration;
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Unity;
-using Unity.Injection;
+using BussinessLayer.Interfaces;
+using BussinessLayer.Implementations;
 
 namespace Training.Angular.DependencyResolver
 {
@@ -53,16 +49,13 @@ namespace Training.Angular.DependencyResolver
 
         public static void RegisterTypes(IUnityContainer container)
         {
-            //contexts
-            //container.RegisterType<OpenAreaContext>(new InjectionFactory(x => new OpenAreaContext()));
-            //container.Register<OpenAreaContext>(new InjectionFactory(c => new OpenAreaContext()));
 
+            //Bussiness Layer Dependencies
 
-            //web respositories
-            //container.RegisterType<IUserRepository, UserRepository>();
-
-            //services
-            //container.RegisterType<IUserService, UserService>();
+            container.RegisterType<ICubeProcessor, CubeProcessor>();
+            container.RegisterType<ICubeUpdate, CubeUpdater>();
+            container.RegisterType<ICubeQuery, CubeRetriever>();
+            container.RegisterType<IValidator, InputValidator>();
 
         }
     }

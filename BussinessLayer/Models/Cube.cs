@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLayer.Models
 {
-    class Cube
+    public class Cube
     {
         public int[,,] matrix { get; set; }
 

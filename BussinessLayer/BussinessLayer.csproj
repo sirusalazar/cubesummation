@@ -42,18 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\CubeProcessor.cs" />
+    <Compile Include="Implementations\CubeRetriever.cs" />
+    <Compile Include="Implementations\CubeUpdater.cs" />
+    <Compile Include="Implementations\InputValidator.cs" />
+    <Compile Include="Interfaces\ICubeProcessor.cs" />
+    <Compile Include="Interfaces\ICubeQuery.cs" />
+    <Compile Include="Interfaces\ICubeUpdate.cs" />
+    <Compile Include="Interfaces\IValidator.cs" />
+    <Compile Include="Models\Cube.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Implementations\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Models\" />
-    <Folder Include="Validators\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

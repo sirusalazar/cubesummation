@@ -1,0 +1,1 @@
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache

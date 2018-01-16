@@ -8,7 +8,7 @@ using BussinessLayer.Interfaces;
 
 namespace BussinessLayer.Implementations
 {
-    class CubeProcessor:ICubeProcessor
+    public class CubeProcessor:ICubeProcessor
     {
         Cube _cube;
         int transactionsQuantity;
@@ -17,7 +17,7 @@ namespace BussinessLayer.Implementations
         ICubeUpdate _updater;
         ICubeQuery _retriever;
 
-        public CubeProcessor(IValidator validator, ICubeUpdate updater, ICubeQuery retriever)
+        CubeProcessor(IValidator validator, ICubeUpdate updater, ICubeQuery retriever)
         {
             this._validator = validator;
             this._updater = updater;

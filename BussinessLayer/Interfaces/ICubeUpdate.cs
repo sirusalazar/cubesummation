@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLayer.Interfaces
 {
-    interface ICubeUpdate
+    public interface ICubeUpdate
     {
          bool executeUpdate(int[] transactionValues, Cube matrix);
     }

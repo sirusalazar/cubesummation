@@ -1,0 +1,6 @@
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\PersistanceLayer\bin\Debug\PersistanceLayer.exe.config
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\PersistanceLayer\bin\Debug\PersistanceLayer.exe
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\PersistanceLayer\bin\Debug\PersistanceLayer.pdb
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\PersistanceLayer\obj\Debug\PersistanceLayer.csprojResolveAssemblyReference.cache
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\PersistanceLayer\obj\Debug\PersistanceLayer.exe
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\PersistanceLayer\obj\Debug\PersistanceLayer.pdb

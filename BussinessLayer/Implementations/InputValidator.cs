@@ -7,7 +7,7 @@ using BussinessLayer.Interfaces;
 
 namespace BussinessLayer.Implementations
 {
-    class InputValidator : IValidator
+    public class InputValidator : IValidator
     {
         public bool IsValidInput(string Input)
         {

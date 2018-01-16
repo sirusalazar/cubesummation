@@ -8,7 +8,7 @@ using BussinessLayer.Models;
 
 namespace BussinessLayer.Implementations
 {
-    class CubeRetriever : ICubeQuery
+    public class CubeRetriever : ICubeQuery
     {
         
 

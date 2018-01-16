@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLayer.Interfaces
 {
-    interface ICubeQuery
+    public interface ICubeQuery
     {
         int executeQuery(int[] transactionValues, Cube matrix);
     }

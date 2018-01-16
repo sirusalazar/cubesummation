@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLayer.Interfaces
 {
-    interface ICubeProcessor
+    public interface ICubeProcessor
     {
         int[] processInput(string Input);
     }

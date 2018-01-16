@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLayer.Interfaces
 {
-    interface IValidator
+    public interface IValidator
     {
         bool IsValidInput(string Input);
 

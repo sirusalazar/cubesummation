@@ -1,1 +1,6 @@
 C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\BussinessLayer\bin\Debug\BussinessLayer.exe.config
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\BussinessLayer\bin\Debug\BussinessLayer.exe
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\BussinessLayer\obj\Debug\BussinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\BussinessLayer\obj\Debug\BussinessLayer.exe
+C:\Users\newshore\documents\visual studio 2015\Projects\CubeSummation\BussinessLayer\obj\Debug\BussinessLayer.pdb
